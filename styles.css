@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.welcome-block {
+    text-align: center;
+    padding: 10px 20px;
+    padding-top: 50px;
+    background-color: #fff;
+}
+.photos {
+    position: relative;
+    margin:auto;
+    width: 150px;
+    height: 200px;
+}
+
+.photo-frame_1 {
+    display: inline-block;
+    position: absolute;
+    right: 40%;
+    width: 150px;
+    height: 150px;
+    background: url('ramka.png') no-repeat center center; /* Путь к изображению рамки */
+    background-size: cover;
+    transform: rotate(-20deg);
+}
+
+.photo-frame_2 {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    background: url('ramka.png') no-repeat center center; /* Путь к изображению рамки */
+    background-size: cover;
+    transform: rotate(15deg);
+}
+
+.photo-frame_3 {
+    display: inline-block;
+    position: relative;    
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    background: url('ramka.png') no-repeat center center; /* Путь к изображению рамки */
+    background-size: cover;
+    transform: rotate(15deg);
+}
+
+.date {
+    position: relative;    
+    width: 250px;
+    height: 150px;
+    object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
+}
+
+.photo-frame p {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+}
+
+.photo {
+    width: 67%;
+    height: 67.5%;
+    padding: 12px;
+    margin-right: 6px; 
+    object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
+}
+.photo_2 {
+    width: 67%;
+    height: 67.5%;
+    padding: 20px;
+    margin-right: 10px; 
+    object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
+}
+
+.serdce {
+    position: relative;    
+    width: 150px;
+    height: 150px;
+    object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
+}
+
+.uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.uznali-block {
+    background-color: #ffffff;
+}
+.dresscode-block{
+    background-color: #ffffff;
+}
+.uznali-text{
+    font-family: "Bellota", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.invitation-text{
+    font-family: "Bellota", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.dresscode-text{
+    font-family: "Bellota", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.obschee_photo_text {
+    position: relative; 
+    bottom: 10%;
+}
+
+.invitation-block {
+    background-color: #ffffff;
+}
+
+.program-block {
+    background-color: #ffffff;
+}
+
+.location-block {
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    color: #000000;
+    font-family: "Shantell Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: "Bellota", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+iframe {
+    margin-top: 20px;
+}
