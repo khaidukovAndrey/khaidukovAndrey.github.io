@@ -63,8 +63,8 @@ body {
     object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
 }
 
-.photo-frame p {
-    position: absolute;
+.p {
+    position: relative;
     bottom: -25px;
     left: 0;
     width: 100%;
@@ -113,6 +113,16 @@ body {
         left:10%;
     }
 }
+@media (min-width: 450px) {
+    .welcome-block, .uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block {
+        width: 445px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .star_3 {
+        left:70px;
+    }
+}
 
 .uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block {
     padding: 10px 20px;
@@ -132,6 +142,7 @@ body {
     font-family: "Bellota", serif;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
 }
 .invitation-text{
     position: relative;
@@ -141,6 +152,7 @@ body {
     font-family: "Bellota", serif;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
 }
 .dresscode-text{
     position: relative;
@@ -149,6 +161,7 @@ body {
     font-family: "Bellota", serif;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
 }
 .location-text{
     position: relative;
