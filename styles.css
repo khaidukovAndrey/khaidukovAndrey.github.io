@@ -212,3 +212,15 @@ ul li {
 iframe {
     margin-top: 20px;
 }
+
+/* Анимация появления блоков */
+.animate-fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
