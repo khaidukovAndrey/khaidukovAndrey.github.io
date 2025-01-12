@@ -95,16 +95,11 @@ body {
     object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
 }
 
-.star_1, .star_2, .star_3, .star_4{
+.star_1, .star_2, .star_3{
     position: absolute;    
     width: 70px;
     height: 70px;
     object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
-}
-
-.star_4 {
-    top:1770px;
-    left:3%;
 }
 
 @media (max-width: 450px) {
@@ -116,9 +111,6 @@ body {
     }
     .star_3 {
         left:10%;
-    }
-    .star_4 {
-        left:3%;
     }
 }
 
