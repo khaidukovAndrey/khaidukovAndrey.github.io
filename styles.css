@@ -114,7 +114,7 @@ body {
     }
 }
 @media (min-width: 450px) {
-    .welcome-block, .uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block {
+    .welcome-block, .uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block, .rsvp-form {
         width: 445px;
         margin-left: auto;
         margin-right: auto;
@@ -124,7 +124,7 @@ body {
     }
 }
 
-.uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block {
+.uznali-block, .invitation-block, .program-block, .location-block, .dresscode-block, .rsvp-form {
     padding: 10px 20px;
     text-align: center;
 }
@@ -185,6 +185,10 @@ body {
 }
 
 .location-block {
+    background-color: #ffffff;
+}
+
+.rsvp-form{
     background-color: #ffffff;
 }
 
